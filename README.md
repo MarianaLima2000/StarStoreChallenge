@@ -3,6 +3,8 @@
 StarStore
 O desafio consiste em criar uma loja de itens de Star Wars que o usuário é capaz de adicionar os itens desejados em um carrinho de compras e finalizar a compra com uma simulação de transação e-commerce.
 
+O desafio deve ser feito utilizando React Native + TypeScript
+
 O candidato, ao finalizar, deve enviar o repositório do github para sistemas@stone.com.br para análise do time.
 
 ## Itens da Loja
