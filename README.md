@@ -5,6 +5,7 @@ O desafio consiste em criar uma loja de itens de Star Wars que o usuário é cap
 
 O candidato, ao finalizar, deve enviar o repositório do github para sistemas@stone.com.br para análise do time.
 
+## Itens da Loja
 Para obter os itens da loja, sua aplicação deverá realizar uma chamada GET na URL https://raw.githubusercontent.com/stone-pagamentos/desafio-mobile/master/store/products.json
 
 A lista de itens deve exibir as seguintes informações:
@@ -14,7 +15,7 @@ A lista de itens deve exibir as seguintes informações:
 - Vendedor [seller]
 - Foto do item [thumbnailHd]
 
-
+## Carrinho
 Após o usuário adicionar todos os itens no carrinho, ele deverá finalizar a compra. Para finalizar a compra, deve realizar uma chamada POST na URL 
 https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challenge-post
 com os seguintes atributos:
@@ -27,7 +28,7 @@ com os seguintes atributos:
 - Valor da transação (total dos itens no carrinho)
 - Lista Itens
 
-## Exemplo:
+#### Exemplo:
 
 {  
 
@@ -47,6 +48,7 @@ com os seguintes atributos:
    
 }
 
+## Histórico de compras
 A aplicação deverá conter uma tela para exibir as transações já feitas.
 Essas transações podem ser recuperadas usando um GET no endpoint:
 https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challenge-get
