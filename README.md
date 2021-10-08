@@ -27,6 +27,8 @@ com os seguintes atributos:
 - Valor da transação (total dos itens no carrinho)
 - Lista Itens
 
+## Exemplo:
+
 {  
 
    "id_user": 123,
