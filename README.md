@@ -9,13 +9,10 @@ Para obter os itens da loja, sua aplicação deverá realizar uma chamada GET na
 
 A lista de itens deve exibir as seguintes informações:
 
-Nome [title]
-
-Preço [price]
-
-Vendedor [seller]
-
-Foto do item [thumbnailHd]
+- Nome [title]
+- Preço [price]
+- Vendedor [seller]
+- Foto do item [thumbnailHd]
 
 
 Após o usuário adicionar todos os itens no carrinho, ele deverá finalizar a compra. Para finalizar a compra, deve realizar uma chamada POST na URL 
@@ -23,18 +20,12 @@ https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challe
 com os seguintes atributos:
 
 - Id do usuário a ser salvo as transações
-
--Número do cartão (máximo de 16 números - XXXX XXXX XXXX XXXX)
-
--Nome do portador do cartão
-
--Vencimento do cartão (MM/yy)
-
--CVV (código encontrado na parte traseira do cartão)
-
--Valor da transação (total dos itens no carrinho)
-
--Lista Itens
+- Número do cartão (máximo de 16 números - XXXX XXXX XXXX XXXX)
+- Nome do portador do cartão
+- Vencimento do cartão (MM/yy)
+- CVV (código encontrado na parte traseira do cartão)
+- Valor da transação (total dos itens no carrinho)
+- Lista Itens
 
 {  
 
