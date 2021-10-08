@@ -55,4 +55,9 @@ A aplicação deverá conter uma tela para exibir as transações já feitas.
 Essas transações podem ser recuperadas usando um GET no endpoint:
 https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challenge-get
 
+#### Exemplo:
+{
+"id_user": 123
+}
+
 Qualquer dúvida pode ser enviada pro email sistemas@stone.com.br
