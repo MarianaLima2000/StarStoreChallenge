@@ -22,15 +22,22 @@ Após o usuário adicionar todos os itens no carrinho, ele deverá finalizar a c
 https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challenge-post
 com os seguintes atributos:
 
-Id do usuário a ser salvo as transações
-Número do cartão (máximo de 16 números - XXXX XXXX XXXX XXXX)
-Nome do portador do cartão
-Vencimento do cartão (MM/yy)
-CVV (código encontrado na parte traseira do cartão)
-Valor da transação (total dos itens no carrinho)
-Lista Itens
+- Id do usuário a ser salvo as transações
+
+-Número do cartão (máximo de 16 números - XXXX XXXX XXXX XXXX)
+
+-Nome do portador do cartão
+
+-Vencimento do cartão (MM/yy)
+
+-CVV (código encontrado na parte traseira do cartão)
+
+-Valor da transação (total dos itens no carrinho)
+
+-Lista Itens
 
 {  
+
    "id_user": 123,
    
    "card_number":"1234123412341234",
@@ -44,6 +51,7 @@ Lista Itens
    "exp_date":"12/24",
    
    "itens": ["Blusa do Imperio","Blusa C3-PO"]
+   
 }
 
 A aplicação deverá conter uma tela para exibir as transações já feitas.
