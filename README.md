@@ -5,7 +5,7 @@ O desafio consiste em criar uma loja de itens de Star Wars que o usuário é cap
 
 O desafio deve ser feito utilizando React Native + TypeScript
 
-O candidato, ao finalizar, deve enviar o repositório do github para sistemas@stone.com.br para análise do time.
+O candidato, ao finalizar, deve enviar o repositório do github para mariana.brito@stone.com.br para análise do time.
 
 ## Itens da Loja
 Para obter os itens da loja, sua aplicação deverá realizar uma chamada GET na URL https://raw.githubusercontent.com/stone-pagamentos/desafio-mobile/master/store/products.json
@@ -18,9 +18,7 @@ A lista de itens deve exibir as seguintes informações:
 - Foto do item [thumbnailHd]
 
 ## Carrinho
-Após o usuário adicionar todos os itens no carrinho, ele deverá finalizar a compra. Para finalizar a compra, deve realizar uma chamada POST na URL 
-https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challenge-post
-com os seguintes atributos:
+Após o usuário adicionar todos os itens no carrinho, ele deverá finalizar a compra. Para finalizar a compra, deve receber e salvar no cache do app as seguintes informações:
 
 - Id do usuário a ser salvo as transações
 - Número do cartão (máximo de 16 números - XXXX XXXX XXXX XXXX)
@@ -30,34 +28,17 @@ com os seguintes atributos:
 - Valor da transação (total dos itens no carrinho)
 - Lista Itens
 
-#### Exemplo:
-
-{  
-
-   "id_user": 123,
-   
-   "card_number":"1234123412341234",
-   
-   "value":7990,
-   
-   "cvv":789,
-   
-   "card_holder_name":"Luke Skywalker",
-   
-   "exp_date":"12/24",
-   
-   "itens": ["Blusa do Imperio","Blusa C3-PO"]
-   
-}
-
 ## Histórico de compras
 A aplicação deverá conter uma tela para exibir as transações já feitas.
-Essas transações podem ser recuperadas usando um GET no endpoint:
-https://us-east1-s4hpf63bwchwcxyc8gn1op1rfij43v.cloudfunctions.net/mobile-challenge-get
+Essas transações podem ser recuperadas do próprio cache do app utilizando o storage ou algum back-end (podendo ser utilizado firebase, caso queira).
 
-#### Exemplo:
-{
-"id_user": 123
-}
+## Diferenciais
+São diferenciais, porém não obrigatório, o uso de:
 
-Qualquer dúvida pode ser enviada pro email sistemas@stone.com.br
+- Redux
+- Back-end próprio
+- Layout projetado em algum software prévio
+- Autenticação com uso das principais plataformas (google, facebook, apple)
+
+
+Qualquer dúvida pode ser enviada pro email mariana.brito@stone.com.br
