@@ -8,7 +8,8 @@ O desafio deve ser feito utilizando React Native + TypeScript
 O candidato, ao finalizar, deve enviar o repositório do github para mariana.brito@stone.com.br para análise do time.
 
 ## Itens da Loja
-Para obter os itens da loja, sua aplicação deverá realizar uma chamada GET na URL https://raw.githubusercontent.com/stone-pagamentos/desafio-mobile/master/store/products.json
+Para obter os itens da loja, sua aplicação poderá realizar uma chamada GET na URL https://raw.githubusercontent.com/stone-pagamentos/desafio-mobile/master/store/products.json
+É um diferencial utilizar um back-end próprio com uso de um banco de dados sem a utilização dessa rota.
 
 A lista de itens deve exibir as seguintes informações:
 
@@ -32,13 +33,20 @@ Após o usuário adicionar todos os itens no carrinho, ele deverá finalizar a c
 A aplicação deverá conter uma tela para exibir as transações já feitas.
 Essas transações podem ser recuperadas do próprio cache do app utilizando o storage ou algum back-end (podendo ser utilizado firebase, caso queira).
 
+## Layout
+A aplicação deve seguir o [layout](https://www.figma.com/file/ioHxpFUcGdWcfZxgFwasIR/StarStore?node-id=0%3A1) como projetado no figma.
+
 ## Diferenciais
 São diferenciais, porém não obrigatório, o uso de:
 
 - Redux
+- Uso de styled-components
+- Uso de AsyncStorage para persistência
 - Back-end próprio
-- Layout projetado em algum software prévio
+- Ferramentas de log e monitoramento
+- Padrão de projeto claro e explicado no README
 - Autenticação com uso das principais plataformas (google, facebook, apple)
+- Sugestões de novas funcionalidades que se adequem ao projeto
 
 
 Qualquer dúvida pode ser enviada pro email mariana.brito@stone.com.br
