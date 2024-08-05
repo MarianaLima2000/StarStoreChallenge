@@ -42,7 +42,7 @@ São diferenciais, porém não obrigatório, o uso de:
 - Redux
 - Uso de styled-components
 - Uso de AsyncStorage para persistência
-- Back-end próprio
+- Back-end próprio hospedado em infraestrutura de nuvem
 - Ferramentas de log e monitoramento
 - Padrão de projeto claro e explicado no README
 - Autenticação com uso das principais plataformas (google, facebook, apple)
