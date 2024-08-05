@@ -8,7 +8,7 @@ O desafio deve ser feito utilizando React Native + TypeScript
 O candidato, ao finalizar, deve enviar o repositório do github para mariana.brito@stone.com.br para análise do time.
 
 ## Itens da Loja
-Para obter os itens da loja, sua aplicação poderá realizar uma chamada GET na URL https://raw.githubusercontent.com/stone-pagamentos/desafio-mobile/master/store/products.json
+Para obter os itens da loja, sua aplicação poderá realizar uma chamada GET na [URL](https://raw.githubusercontent.com/stone-pagamentos/desafio-mobile/master/store/products.json),
 É um diferencial utilizar um back-end próprio com uso de um banco de dados sem a utilização dessa rota.
 
 A lista de itens deve exibir as seguintes informações:
